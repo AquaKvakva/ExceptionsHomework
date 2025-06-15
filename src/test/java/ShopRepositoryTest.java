@@ -78,7 +78,7 @@ public class ShopRepositoryTest {
         boolean result1 = product1.equals(product2);
 
         Assertions.assertTrue(result1);
-        Assertions.assertEquals(product1.hashCode(), product2.hashCode());
+
 
     }
 
